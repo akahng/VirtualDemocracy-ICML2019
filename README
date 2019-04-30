@@ -1,0 +1,5 @@
+Requires Python 3.6 or higher for string formatting. Also uses 'profile_generator.py' by Nick Mattei and NICTA, which we have modified for our usage. In particular, we have removed its dependence on PreflibUtils, also by Nick Mattei and NICTA.
+
+In order to run the simulations, type 'python mallows_simulation.py'; results will populate the 'figs' directory. 
+
+A filename like p70_100voters_40alts_20phi represents a run with parameter settings p = 0.7, 100 voters, 40 alts, phi = 0.2. 
